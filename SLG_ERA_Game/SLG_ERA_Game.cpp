@@ -5,6 +5,13 @@
 #include <iostream>
 
 
+int Game_Progress_Test();
+int main()
+{
+	Game_Progress_Test();
+	return 0;
+}
+
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
 // 调试程序: F5 或调试 >“开始调试”菜单

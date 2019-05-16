@@ -36,6 +36,18 @@
     <ClInclude Include="Main_Character.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Start_Interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Progress_Interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="End_Interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -57,6 +69,21 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Main_Character.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TEST_GAME.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Start_Interface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Progress_Interface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="End_Interface.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

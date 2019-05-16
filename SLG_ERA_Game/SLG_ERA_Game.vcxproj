@@ -151,15 +151,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="End_Interface.h" />
+    <ClInclude Include="Interface.h" />
     <ClInclude Include="Main_Character.h" />
     <ClInclude Include="Movement.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Character.h" />
     <ClInclude Include="Player_Character.h" />
+    <ClInclude Include="Progress_Interface.h" />
+    <ClInclude Include="Start_Interface.h" />
     <ClInclude Include="Static.h" />
     <ClInclude Include="Time.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="End_Interface.cpp" />
+    <ClCompile Include="Interface.cpp" />
     <ClCompile Include="Main_Character.cpp" />
     <ClCompile Include="Movement.cpp" />
     <ClCompile Include="pch.cpp">
@@ -169,8 +175,11 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Player_Character.cpp" />
+    <ClCompile Include="Progress_Interface.cpp" />
     <ClCompile Include="SLG_ERA_Game.cpp" />
+    <ClCompile Include="Start_Interface.cpp" />
     <ClCompile Include="Static.cpp" />
+    <ClCompile Include="TEST_GAME.cpp" />
     <ClCompile Include="Time.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
