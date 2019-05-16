@@ -21,12 +21,42 @@
     <ClInclude Include="Character.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Static.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Movement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_Character.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Main_Character.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="SLG_ERA_Game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Static.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Movement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_Character.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Character.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

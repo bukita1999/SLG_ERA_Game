@@ -5,7 +5,8 @@ using namespace std;
 
 class Character
 {
-private:string *Name;
+protected:
+	string *Name;
 		int Point;
 		char *Item;
 		string *Static;
